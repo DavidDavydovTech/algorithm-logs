@@ -1,0 +1,1 @@
+const islandCount = require('./islandCount');

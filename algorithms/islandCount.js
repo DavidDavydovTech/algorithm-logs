@@ -8,7 +8,7 @@
 // the same dimension or the two that share it's index in a neighboring dimension.
 
 const islandCount = (arr) => {
-    
+
 }
 
-module.islandCount = islandCount;
+module.exports = islandCount;

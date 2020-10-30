@@ -7,3 +7,8 @@
 // in the array can be adjacent to the two values that are next to it in 
 // the same dimension or the two that share it's index in a neighboring dimension.
 
+const islandCount = (arr) => {
+    
+}
+
+module.islandCount = islandCount;

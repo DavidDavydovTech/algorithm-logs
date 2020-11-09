@@ -16,7 +16,11 @@
 // Median is 5 (average of two middle numbers)
 
 const peekMedian = (arr) => {
+    const sortedArr = arr.sort((a,b) => a - b);
+    const len = sortedArr.length;
+    switch(true) {
 
+    }
 }
 
 module.exports = peekMedian;

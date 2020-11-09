@@ -22,7 +22,9 @@ const peekMedian = (arr) => {
         case len === 1: return sortedArr[0];
         case len === 2: return ( sortedArr[0] + sortedArr[1] ) / 2;
         case len !== 0 && len%2 === 0:
-
+            const upperNumber = len/2;
+            const lowerNumber = len/2 - 1;
+            return ( sortedArr[lowerNumber] + sortedArr[upperNumber] ) / 2;
         case len%2 === 1:
         default:
     }

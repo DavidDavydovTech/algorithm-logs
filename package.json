@@ -2,5 +2,12 @@
   "dependencies": {
     "jest": "^26.6.1",
     "jest-nyan-reporter": "^1.0.2"
-  }
+  },
+  "jest": {
+    "reporters": [
+        ["jest-nyan-reporter", {
+          "suppressErrorReporter": false
+        }]
+      ]
+    }
 }

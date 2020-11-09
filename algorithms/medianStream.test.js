@@ -14,7 +14,7 @@ describe('Functionality', () => {
         expect(peakMedian([9,28])).toBe(18.5);
     });
     test('It should work for larger arrays of even length:', () => {
-        expect(peakMedian([1,2,3,4,5,6,7,8,9,10])).toBe(4.5);
+        expect(peakMedian([1,2,3,4,5,6,7,8,9,10])).toBe(5.5);
     });
     test('It should work for larger arrays of odd length', () => {
         expect(peakMedian([0,1,2,3,4,5,6,7,8,9,10])).toBe(5);

@@ -14,3 +14,9 @@
 
 // [1, 3, 7, 8]
 // Median is 5 (average of two middle numbers)
+
+const peekMedian = (arr) => {
+
+}
+
+module.exports = peekMedian;

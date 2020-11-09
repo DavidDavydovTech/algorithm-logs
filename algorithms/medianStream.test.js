@@ -1,5 +1,10 @@
 const peakMedian = require('./medianStream');
 
+describe('Edge Cases', () => {
+    describe('Return null when the array is empty', () => {
+        expect(peakMedian([])).toBe(null);
+    });
+});
 describe('Functionality', () => {
     test('It should work for arrays of length 1:', () => {
         expect(peakMedian([0])).toBe(0);
